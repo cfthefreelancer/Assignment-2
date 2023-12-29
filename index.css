@@ -1,0 +1,82 @@
+@media screen and (max-width: 600px) {
+    .fullForm {
+        position: relative;
+        max-width: 100%;
+        margin-right: 15%;
+      }
+}
+  
+body {
+    font-family: 'Sofia Pro';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d9f3f6; /* Background colour */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  section {
+    max-width: 580px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+    right: -15%;
+    margin-top: 8.5%; 
+  }
+  
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 50%; 
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #2EC4B6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #2EC4B6;
+    text-decoration: underline;
+  }
+
+ 
+  
